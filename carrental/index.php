@@ -13,7 +13,7 @@ error_reporting(0);
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="keywords" content="">
 <meta name="description" content="">
-<title>Car Rental Portal</title>
+<title>Burengo</title>
 <!--Bootstrap -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
 <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -53,9 +53,9 @@ error_reporting(0);
       <div class="row">
         <div class="col-md-5 col-md-push-7">
           <div class="banner_content">
-            <h1>Find the right car for you.</h1>
-            <p>We have more than a thousand cars for you to choose. </p>
-            <a href="#" class="btn">Read More <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> </div>
+            <h1>Encuentra el auto correcto para ti.</h1>
+            <p>Tenemos una gran seleccion de autos, para que tu preferencia.</p>
+            <a href="#" class="btn">Leer más<span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> </div>
         </div>
       </div>
     </div>
@@ -68,15 +68,15 @@ error_reporting(0);
 <section class="section-padding gray-bg">
   <div class="container">
     <div class="section-header text-center">
-      <h2>Find the Best <span>CarForYou</span></h2>
-      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+      <h2>Encuentra el Mejor <span>AutoParaTi</span></h2>
+      <p>Hay muchas variaciones de pasajes de Lorem Ipsum disponibles, pero la mayoría ha sufrido alteración de alguna forma, por humor inyectado o palabras aleatorias que ni siquiera parecen un poco creíbles. Si va a utilizar un pasaje de Lorem Ipsum, debe asegurarse de que no haya nada vergonzoso oculto en medio del texto.</p>
     </div>
     <div class="row"> 
       
       <!-- Nav tabs -->
       <div class="recent-tab">
         <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="active"><a href="#resentnewcar" role="tab" data-toggle="tab">New Car</a></li>
+          <li role="presentation" class="active"><a href="#resentnewcar" role="tab" data-toggle="tab">Nuevo Auto</a></li>
         </ul>
       </div>
       <!-- Recently Listed New Cars -->
@@ -120,44 +120,46 @@ foreach($results as $result)
 </section>
 <!-- /Resent Cat --> 
 
+
+
 <!-- Fun Facts-->
 <section class="fun-facts-section">
-  <div class="container div_zindex">
-    <div class="row">
-      <div class="col-lg-3 col-xs-6 col-sm-3">
-        <div class="fun-facts-m">
-          <div class="cell">
-            <h2><i class="fa fa-calendar" aria-hidden="true"></i>40+</h2>
-            <p>Years In Business</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-xs-6 col-sm-3">
-        <div class="fun-facts-m">
-          <div class="cell">
-            <h2><i class="fa fa-car" aria-hidden="true"></i>1200+</h2>
-            <p>New Cars For Sale</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-xs-6 col-sm-3">
-        <div class="fun-facts-m">
-          <div class="cell">
-            <h2><i class="fa fa-car" aria-hidden="true"></i>1000+</h2>
-            <p>Used Cars For Sale</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-xs-6 col-sm-3">
-        <div class="fun-facts-m">
-          <div class="cell">
-            <h2><i class="fa fa-user-circle-o" aria-hidden="true"></i>600+</h2>
-            <p>Satisfied Customers</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<!--  <div class="container div_zindex">-->
+<!--    <div class="row">-->
+<!--      <div class="col-lg-3 col-xs-6 col-sm-3">-->
+<!--        <div class="fun-facts-m">-->
+<!--          <div class="cell">-->
+<!--            <h2><i class="fa fa-calendar" aria-hidden="true"></i>40+</h2>-->
+<!--            <p>Years In Business</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="col-lg-3 col-xs-6 col-sm-3">-->
+<!--        <div class="fun-facts-m">-->
+<!--          <div class="cell">-->
+<!--            <h2><i class="fa fa-car" aria-hidden="true"></i>1200+</h2>-->
+<!--            <p>New Cars For Sale</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="col-lg-3 col-xs-6 col-sm-3">-->
+<!--        <div class="fun-facts-m">-->
+<!--          <div class="cell">-->
+<!--            <h2><i class="fa fa-car" aria-hidden="true"></i>1000+</h2>-->
+<!--            <p>Used Cars For Sale</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="col-lg-3 col-xs-6 col-sm-3">-->
+<!--        <div class="fun-facts-m">-->
+<!--          <div class="cell">-->
+<!--            <h2><i class="fa fa-user-circle-o" aria-hidden="true"></i>600+</h2>-->
+<!--            <p>Satisfied Customers</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
   <!-- Dark Overlay-->
   <div class="dark-overlay"></div>
 </section>

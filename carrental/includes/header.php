@@ -65,19 +65,19 @@ foreach($results as $result)
 	 echo htmlentities($result->FullName); }}?><i class="fa fa-angle-down" aria-hidden="true"></i></a>
               <ul class="dropdown-menu">
            <?php if($_SESSION['login']){?>
-            <li><a href="profile.php">Profile Settings</a></li>
-              <li><a href="update-password.php">Update Password</a></li>
-            <li><a href="my-booking.php">My Booking</a></li>
-            <li><a href="post-testimonial.php">Post a Testimonial</a></li>
-          <li><a href="my-testimonials.php">My Testimonial</a></li>
-            <li><a href="logout.php">Sign Out</a></li>
+            <li><a href="profile.php">Ajustes del Perfil</a></li>
+              <li><a href="update-password.php">Actualizar Contraseña</a></li>
+            <li><a href="my-booking.php">Mi Reserva</a></li>
+            <li><a href="post-testimonial.php">Publicaciones de Testimonio</a></li>
+          <li><a href="my-testimonials.php">Mi Testimonio</a></li>
+            <li><a href="logout.php">Cerrar Sesión</a></li>
             <?php } else { ?>
-            <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">Profile Settings</a></li>
-              <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">Update Password</a></li>
-            <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">My Booking</a></li>
-            <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">Post a Testimonial</a></li>
-          <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">My Testimonial</a></li>
-            <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">Sign Out</a></li>
+            <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">Ajustes del Perfil</a></li>
+              <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">Actualizar Contraseña</a></li>
+            <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">Mi Reserva</a></li>
+            <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">Publicaciones de Testimonio</a></li>
+          <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">Mi Testimonio</a></li>
+            <li><a href="#loginform"  data-toggle="modal" data-dismiss="modal">Cerrar Sesión</a></li>
             <?php } ?>
           </ul>
             </li>
@@ -86,19 +86,19 @@ foreach($results as $result)
         <div class="header_search">
           <div id="search_toggle"><i class="fa fa-search" aria-hidden="true"></i></div>
           <form action="#" method="get" id="header-search-form">
-            <input type="text" placeholder="Search..." class="form-control">
+            <input type="text" placeholder="Buscar..." class="form-control">
             <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
           </form>
         </div>
       </div>
       <div class="collapse navbar-collapse" id="navigation">
         <ul class="nav navbar-nav">
-          <li><a href="index.php">Home</a>    </li>
+          <li><a href="index.php">Inicio</a>    </li>
           	 
-          <li><a href="page.php?type=aboutus">About Us</a></li>
-          <li><a href="car-listing.php">Car Listing</a>
+          <li><a href="page.php?type=aboutus">Sobre Nosotros</a></li>
+          <li><a href="car-listing.php">Lista de Autos</a>
           <li><a href="page.php?type=faqs">FAQs</a></li>
-          <li><a href="contact-us.php">Contact Us</a></li>
+          <li><a href="contact-us.php">Contáctanos</a></li>
 
         </ul>
       </div>
