@@ -19,7 +19,7 @@ $query->bindParam(':vimage',$vimage,PDO::PARAM_STR);
 $query->bindParam(':id',$id,PDO::PARAM_STR);
 $query->execute();
 
-$msg="Image updated successfully";
+$msg="Imagen actualizada con éxito";
 
 
 
@@ -37,7 +37,7 @@ $msg="Image updated successfully";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>Car Rental Portal | Admin Update Image 4</title>
+	<title>Burengo Car Rental | Admin Actualizar Imagen 4</title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -87,23 +87,23 @@ $msg="Image updated successfully";
 				<div class="row">
 					<div class="col-md-12">
 					
-						<h2 class="page-title">Vehicle Image 4 </h2>
+						<h2 class="page-title">Vehículo Imagen 4 </h2>
 
 						<div class="row">
 							<div class="col-md-10">
 								<div class="panel panel-default">
-									<div class="panel-heading">Vehicle Image 4 Details</div>
+									<div class="panel-heading">Imagen del vehículo 4 Detalles</div>
 									<div class="panel-body">
 										<form method="post" class="form-horizontal" enctype="multipart/form-data">
 										
 											
   	        	  <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
-				else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
+				else if($msg){?><div class="succWrap"><strong>CORRECTO</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
 
 
 
 <div class="form-group">
-												<label class="col-sm-4 control-label">Current Image4</label>
+												<label class="col-sm-4 control-label">Imagen Actual 4</label>
 <?php 
 $id=intval($_GET['imgid']);
 $sql ="SELECT Vimage4 from tblvehicles where tblvehicles.id=:id";
@@ -124,20 +124,18 @@ foreach($results as $result)
 </div>
 
 											<div class="form-group">
-												<label class="col-sm-4 control-label">Upload New Image 4<span style="color:red">*</span></label>
+												<label class="col-sm-4 control-label">Subir Nueva Imagen 4<span style="color:red">*</span></label>
 												<div class="col-sm-8">
 											<input type="file" name="img4" required>
 												</div>
 											</div>
 											<div class="hr-dashed"></div>
 											
-										
-								
-											
+
 											<div class="form-group">
 												<div class="col-sm-8 col-sm-offset-4">
 								
-													<button class="btn btn-primary" name="update" type="submit">Update</button>
+													<button class="btn btn-primary" name="update" type="submit">Actualizar</button>
 												</div>
 											</div>
 
