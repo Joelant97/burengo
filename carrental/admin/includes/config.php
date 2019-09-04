@@ -1,8 +1,8 @@
 <?php 
 // DB credentials.
 define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PASS','');
+define('DB_USER','root');     //Contraseña y Usuario de la base de datos SCHEMA de MySql.
+define('DB_PASS','root');
 define('DB_NAME','carrental');
 // Establish database connection.
 try

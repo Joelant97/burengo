@@ -32,7 +32,7 @@ $query -> bindParam(':status',$status, PDO::PARAM_STR);
 $query-> bindParam(':aeid',$aeid, PDO::PARAM_STR);
 $query -> execute();
 
-$msg="Booking Successfully Confirmed";
+$msg="Reserva confirmada con éxito";
 }
 
 
@@ -49,7 +49,7 @@ $msg="Booking Successfully Confirmed";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>Car Rental Portal |Admin Manage testimonials   </title>
+	<title>Car Rental Portal |Admin Administrar testimonios   </title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -99,39 +99,39 @@ $msg="Booking Successfully Confirmed";
 				<div class="row">
 					<div class="col-md-12">
 
-						<h2 class="page-title">Manage Bookings</h2>
+						<h2 class="page-title">Gestionar reservas</h2>
 
 						<!-- Zero Configuration Table -->
 						<div class="panel panel-default">
-							<div class="panel-heading">Bookings Info</div>
+							<div class="panel-heading">Información de Reservas</div>
 							<div class="panel-body">
 							<?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
-				else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
+				else if($msg){?><div class="succWrap"><strong>CORRECTO</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
 								<table id="zctb" class="display table table-striped table-bordered table-hover" cellspacing="0" width="100%">
 									<thead>
 										<tr>
 										<th>#</th>
-											<th>Name</th>
-											<th>Vehicle</th>
-											<th>From Date</th>
-											<th>To Date</th>
+											<th>Nombre</th>
+											<th>Auto</th>
+											<th>Partir de la fecha</th>
+											<th>Hasta la fecha</th>
 											<th>Message</th>
-											<th>Status</th>
-											<th>Posting date</th>
-											<th>Action</th>
+											<th>Estado</th>
+											<th>Fecha de Publicación</th>
+											<th>Acción</th>
 										</tr>
 									</thead>
 									<tfoot>
 										<tr>
 										<th>#</th>
-										<th>Name</th>
-											<th>Vehicle</th>
-											<th>From Date</th>
-											<th>To Date</th>
-											<th>Message</th>
-											<th>Status</th>
-											<th>Posting date</th>
-											<th>Action</th>
+										<th>Nombre</th>
+                                            <th>Auto</th>
+                                            <th>Partir de la fecha</th>
+                                            <th>Hasta la fecha</th>
+                                            <th>Message</th>
+                                            <th>Estado</th>
+                                            <th>Fecha de Publicación</th>
+                                            <th>Acción</th>
 										</tr>
 									</tfoot>
 									<tbody>
@@ -155,19 +155,19 @@ foreach($results as $result)
 											<td><?php 
 if($result->Status==0)
 {
-echo htmlentities('Not Confirmed yet');
+echo htmlentities('Todavía no se ha confirmado');
 } else if ($result->Status==1) {
-echo htmlentities('Confirmed');
+echo htmlentities('Confirmado');
 }
  else{
- 	echo htmlentities('Cancelled');
+ 	echo htmlentities('Cancelado');
  }
 										?></td>
 											<td><?php echo htmlentities($result->PostingDate);?></td>
-										<td><a href="manage-bookings.php?aeid=<?php echo htmlentities($result->id);?>" onclick="return confirm('Do you really want to Confirm this booking')"> Confirm</a> /
+										<td><a href="manage-bookings.php?aeid=<?php echo htmlentities($result->id);?>" onclick="return confirm('Realmente quieres confirmar esta reserva?')"> Confirmar</a> /
 
 
-<a href="manage-bookings.php?eid=<?php echo htmlentities($result->id);?>" onclick="return confirm('Do you really want to Cancel this Booking')"> Cancel</a>
+<a href="manage-bookings.php?eid=<?php echo htmlentities($result->id);?>" onclick="return confirm('Realmente quieres cancelar esta reserva?')"> Cancelar</a>
 </td>
 
 										</tr>
