@@ -18,11 +18,11 @@ $query->execute();
 $lastInsertId = $dbh->lastInsertId();
 if($lastInsertId)
 {
-$msg="Brand Created successfully";
+$msg="Marca Creada Correctamente";
 }
 else 
 {
-$error="Something went wrong. Please try again";
+$error="Algo esta mal. Por favor trate de nuevo";
 }
 
 }
@@ -39,7 +39,7 @@ $error="Something went wrong. Please try again";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>Car Rental Portal | Admin Create Brand</title>
+	<title>Burengo Car Rental | Admin Crear Marca</title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -89,20 +89,20 @@ $error="Something went wrong. Please try again";
 				<div class="row">
 					<div class="col-md-12">
 					
-						<h2 class="page-title">Create Brand</h2>
+						<h2 class="page-title">Crear Marca</h2>
 
 						<div class="row">
 							<div class="col-md-10">
 								<div class="panel panel-default">
-									<div class="panel-heading">Form fields</div>
+									<div class="panel-heading">Campos del Formulario</div>
 									<div class="panel-body">
 										<form method="post" name="chngpwd" class="form-horizontal" onSubmit="return valid();">
 										
 											
   	        	  <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
-				else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
+				else if($msg){?><div class="succWrap"><strong>CORRECTO</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
 											<div class="form-group">
-												<label class="col-sm-4 control-label">Brand Name</label>
+												<label class="col-sm-4 control-label">Nombre de la Marca</label>
 												<div class="col-sm-8">
 													<input type="text" class="form-control" name="brand" id="brand" required>
 												</div>
@@ -115,7 +115,7 @@ $error="Something went wrong. Please try again";
 											<div class="form-group">
 												<div class="col-sm-8 col-sm-offset-4">
 								
-													<button class="btn btn-primary" name="submit" type="submit">Submit</button>
+													<button class="btn btn-primary" name="submit" type="submit">Guardar</button>
 												</div>
 											</div>
 

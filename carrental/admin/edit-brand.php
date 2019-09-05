@@ -19,13 +19,13 @@ $query->bindParam(':id',$id,PDO::PARAM_STR);
 $query->execute();
 $lastInsertId = $dbh->lastInsertId();
 
-$msg="Brand updted successfully";
+$msg="Marca Actualizada con éxito";
 
 }
 ?>
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="es" class="no-js">
 
 <head>
 	<meta charset="UTF-8">
@@ -35,7 +35,7 @@ $msg="Brand updted successfully";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>Car Rental Portal | Admin Create Brand</title>
+	<title>Burengo Car Rental | Admin Crear Marca</title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -85,18 +85,18 @@ $msg="Brand updted successfully";
 				<div class="row">
 					<div class="col-md-12">
 					
-						<h2 class="page-title">Create Brand</h2>
+						<h2 class="page-title">Crear Marca</h2>
 
 						<div class="row">
 							<div class="col-md-10">
 								<div class="panel panel-default">
-									<div class="panel-heading">Form fields</div>
+									<div class="panel-heading">Campos del Formulario</div>
 									<div class="panel-body">
 										<form method="post" name="chngpwd" class="form-horizontal" onSubmit="return valid();">
 										
 											
   	        	  <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
-				else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
+				else if($msg){?><div class="succWrap"><strong>CORRECTO</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
 
 <?php	
 $id=$_GET['id'];
@@ -113,7 +113,7 @@ foreach($results as $result)
 ?>
 
 											<div class="form-group">
-												<label class="col-sm-4 control-label">Brand Name</label>
+												<label class="col-sm-4 control-label">Nombre de la Marca</label>
 												<div class="col-sm-8">
 													<input type="text" class="form-control" value="<?php echo htmlentities($result->BrandName);?>" name="brand" id="brand" required>
 												</div>
@@ -126,7 +126,7 @@ foreach($results as $result)
 											<div class="form-group">
 												<div class="col-sm-8 col-sm-offset-4">
 								
-													<button class="btn btn-primary" name="submit" type="submit">Submit</button>
+													<button class="btn btn-primary" name="submit" type="submit">Guardar</button>
 												</div>
 											</div>
 

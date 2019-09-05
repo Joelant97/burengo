@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/burengo.iml" filepath="$PROJECT_DIR$/.idea/burengo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/burengo.iml" filepath="$PROJECT_DIR$/burengo.iml" />
     </modules>
   </component>
 </project>

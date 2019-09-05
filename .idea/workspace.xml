@@ -1,93 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3464777f-b02d-4856-94e2-3232d2a4d553" name="Default Changelist" comment="">
+    <list default="true" id="9f9cd809-5b75-4359-a03d-2846a47d87f9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/burengo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carrental/admin/change-password.php" beforeDir="false" afterPath="$PROJECT_DIR$/carrental/admin/change-password.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carrental/admin/changeimage1.php" beforeDir="false" afterPath="$PROJECT_DIR$/carrental/admin/changeimage1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carrental/admin/changeimage2.php" beforeDir="false" afterPath="$PROJECT_DIR$/carrental/admin/changeimage2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carrental/admin/changeimage3.php" beforeDir="false" afterPath="$PROJECT_DIR$/carrental/admin/changeimage3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carrental/admin/changeimage4.php" beforeDir="false" afterPath="$PROJECT_DIR$/carrental/admin/changeimage4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carrental/admin/changeimage5.php" beforeDir="false" afterPath="$PROJECT_DIR$/carrental/admin/changeimage5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carrental/admin/create-brand.php" beforeDir="false" afterPath="$PROJECT_DIR$/carrental/admin/create-brand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carrental/admin/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/carrental/admin/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carrental/admin/edit-brand.php" beforeDir="false" afterPath="$PROJECT_DIR$/carrental/admin/edit-brand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carrental/admin/edit-vehicle.php" beforeDir="false" afterPath="$PROJECT_DIR$/carrental/admin/edit-vehicle.php" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-2057325937">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="php" value="20" />
-          <entry key="sql" value="1" />
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PHP" value="20" />
-          <entry key="SQL" value="1" />
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="php" value="1286" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PHP" value="1284" />
-          <entry key="SQL" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carrental/admin/change-password.php">
+    <leaf>
+      <file leaf-file-name="create-brand.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carrental/admin/create-brand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="166" column="18" lean-forward="true" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
+            <state relative-caret-position="1989">
+              <caret line="117" column="128" lean-forward="true" selection-start-line="117" selection-start-column="128" selection-end-line="117" selection-end-column="128" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carrental/admin/changeimage4.php">
+      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carrental/admin/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="173" column="10" lean-forward="true" selection-start-line="173" selection-start-column="10" selection-end-line="173" selection-end-column="10" />
-              <folding>
-                <element signature="e#3761#3778#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="3349">
+              <caret line="197" column="133" selection-start-line="197" selection-start-column="133" selection-end-line="197" selection-end-column="133" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/carrental/admin/changeimage5.php">
+      <file leaf-file-name="edit-brand.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carrental/admin/edit-brand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="174" column="10" lean-forward="true" selection-start-line="174" selection-start-column="10" selection-end-line="174" selection-end-column="10" />
+            <state relative-caret-position="102">
+              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit-vehicle.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/carrental/admin/edit-vehicle.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="491" column="10" lean-forward="true" selection-start-line="491" selection-start-column="10" selection-end-line="491" selection-end-column="10" />
               <folding>
-                <element signature="e#3577#3606#0#HTML" expanded="true" />
-                <element signature="e#3744#3761#0#HTML" expanded="true" />
+                <element signature="e#5619#5636#0#HTML" expanded="true" />
+                <element signature="e#5868#5885#0#HTML" expanded="true" />
+                <element signature="e#6700#6717#0#HTML" expanded="true" />
+                <element signature="e#7000#7017#0#HTML" expanded="true" />
+                <element signature="e#7251#7268#0#HTML" expanded="true" />
+                <element signature="e#7700#7717#0#HTML" expanded="true" />
+                <element signature="e#7947#7964#0#HTML" expanded="true" />
+                <element signature="e#8700#8729#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,33 +70,62 @@
       </file>
     </leaf>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Ren</find>
-      <find>we</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Desktop/Jhon/red-Social-Final" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Joel Final Web" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Joel Final Web/red-Social-Final/redsocial" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Nuevo 9" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Parcial 2 Web/instagram-Clone-Spark" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Parcial 2 Web/new/red-Social" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Parcial 2 Web/red-Social-Final" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Practica 10" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Quiz/grails-quiz-jhonyjoel" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/T4 Web/Blog_Orm" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/T4 Web/hibernet" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/T4 Web/hibernet-joel" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/T7 Web/practica7" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/T7 Web/sparkjava-restful" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/T8 Web/T8-cliente" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/T9 Web/practica_JSF_9" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Tarea 9/Shantall/Practica9" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Tarea 9/Shantall/Practica9-web" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/Tarea 9/pract9-JJ" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/grails3-demo" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/practica10-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/practica9" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/Cliente Http" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/WorkSpace Web" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/WorkSpace Web/ClienteHttp-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/WorkSpace Web/Pract14" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/WorkSpace Web/electronicaPractica10" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/WorkSpace Web/hola_mundo_spring_boot" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/WorkSpace Web/p12" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/WorkSpace Web/practica12" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/WorkSpace Web/red-Social-Final" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/Tarea_Http-origin-master" value="PREVIEW" />
+        <entry key="D:/WSpaceWeb/Balanceadores" value="PREVIEW" />
+        <entry key="D:/WSpaceWeb/Practica10" value="PREVIEW" />
+        <entry key="D:/WSpaceWeb/electronicaPractica10" value="PREVIEW" />
+        <entry key="D:/WSpaceWeb/practica13" value="PREVIEW" />
+        <entry key="D:/WorkSpace Web Avanzada" value="PREVIEW" />
+        <entry key="D:/WorkSpace Web Avanzada/p12" value="PREVIEW" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/carrental/includes/footer.php" />
-        <option value="$PROJECT_DIR$/carrental/index.php" />
-        <option value="$PROJECT_DIR$/carrental/includes/header.php" />
-        <option value="$PROJECT_DIR$/carrental/includes/config.php" />
+        <option value="$PROJECT_DIR$/carrental/admin/create-brand.php" />
+        <option value="$PROJECT_DIR$/carrental/admin/dashboard.php" />
+        <option value="$PROJECT_DIR$/carrental/admin/edit-brand.php" />
+        <option value="$PROJECT_DIR$/carrental/admin/edit-vehicle.php" />
         <option value="$PROJECT_DIR$/carrental/admin/manage-bookings.php" />
-        <option value="$PROJECT_DIR$/carrental/admin/index.php" />
-        <option value="$PROJECT_DIR$/carrental/admin/includes/leftbar.php" />
-        <option value="$PROJECT_DIR$/carrental/admin/includes/header.php" />
-        <option value="$PROJECT_DIR$/carrental/admin/includes/config.php" />
-        <option value="$PROJECT_DIR$/carrental/admin/change-password.php" />
-        <option value="$PROJECT_DIR$/carrental/admin/changeimage1.php" />
-        <option value="$PROJECT_DIR$/carrental/admin/changeimage2.php" />
-        <option value="$PROJECT_DIR$/carrental/admin/changeimage3.php" />
-        <option value="$PROJECT_DIR$/carrental/admin/changeimage4.php" />
-        <option value="$PROJECT_DIR$/carrental/admin/changeimage5.php" />
       </list>
     </option>
   </component>
@@ -131,19 +135,26 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="716" />
+    <option name="height" value="820" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,22 +173,25 @@
               <item name="carrental" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="burengo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="burengo" type="462c0819:PsiDirectoryNode" />
-              <item name="sqlfile" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567627654426" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -191,265 +205,213 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3464777f-b02d-4856-94e2-3232d2a4d553" name="Default Changelist" comment="" />
-      <created>1565875507508</created>
+      <changelist id="9f9cd809-5b75-4359-a03d-2846a47d87f9" name="Default" comment="" />
+      <created>1567721096265</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565875507508</updated>
-      <workItem from="1565875511714" duration="6720000" />
-      <workItem from="1566562477209" duration="9615000" />
-      <workItem from="1567192814698" duration="1196000" />
-      <workItem from="1567516059339" duration="3495000" />
-      <workItem from="1567600465323" duration="8088000" />
-      <workItem from="1567617361196" duration="6291000" />
+      <updated>1567721096265</updated>
+      <workItem from="1567721101632" duration="2693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35405000" />
+    <option name="totallyTimeSpent" value="2693000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="816" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15191898" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.14642082" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.17570499" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286385" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32928804" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3286385" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286385" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286385" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921754" visible="true" weight="0.19902913" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="SciView" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="4" sideWeight="0.5007825" side_tool="true" weight="0.26618123" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3286385" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32928804" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3286385" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3286385" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286385" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15191898" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.14642082" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.17570499" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+    <entry file="file://$PROJECT_DIR$/carrental/admin/includes/config.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/index.php">
+    <entry file="file://$PROJECT_DIR$/carrental/admin/create-brand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="161" column="15" selection-start-line="161" selection-start-column="15" selection-end-line="161" selection-end-column="15" />
+        <state relative-caret-position="1989">
+          <caret line="117" column="128" lean-forward="true" selection-start-line="117" selection-start-column="128" selection-end-line="117" selection-end-column="128" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/includes/header.php">
+    <entry file="file://$PROJECT_DIR$/carrental/admin/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="85" column="35" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
+        <state relative-caret-position="3349">
+          <caret line="197" column="133" selection-start-line="197" selection-start-column="133" selection-end-line="197" selection-end-column="133" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/includes/footer.php">
+    <entry file="file://$PROJECT_DIR$/carrental/admin/edit-brand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="28" />
+        <state relative-caret-position="102">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1018" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/carrental/admin/logout.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/carrental/admin/manage-bookings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="62" lean-forward="true" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sqlfile/carrental.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/includes/config.php">
+    <entry file="file://$PROJECT_DIR$/carrental/admin/edit-vehicle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/admin/includes/leftbar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/admin/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/admin/includes/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="89" lean-forward="true" selection-start-line="3" selection-start-column="89" selection-end-line="3" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/admin/changeimage1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="125" column="86" selection-start-line="125" selection-start-column="86" selection-end-line="125" selection-end-column="104" />
+        <state relative-caret-position="502">
+          <caret line="491" column="10" lean-forward="true" selection-start-line="491" selection-start-column="10" selection-end-line="491" selection-end-column="10" />
           <folding>
-            <element signature="e#3553#3582#0#HTML" expanded="true" />
-            <element signature="e#3720#3737#0#HTML" expanded="true" />
+            <element signature="e#5619#5636#0#HTML" expanded="true" />
+            <element signature="e#5868#5885#0#HTML" expanded="true" />
+            <element signature="e#6700#6717#0#HTML" expanded="true" />
+            <element signature="e#7000#7017#0#HTML" expanded="true" />
+            <element signature="e#7251#7268#0#HTML" expanded="true" />
+            <element signature="e#7700#7717#0#HTML" expanded="true" />
+            <element signature="e#7947#7964#0#HTML" expanded="true" />
+            <element signature="e#8700#8729#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/admin/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/admin/manage-conactusquery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/admin/changeimage2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="94" column="63" selection-start-line="94" selection-start-column="63" selection-end-line="94" selection-end-column="93" />
-          <folding>
-            <element signature="e#3744#3761#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/admin/change-password.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="166" column="18" lean-forward="true" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/admin/changeimage3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/admin/changeimage4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="173" column="10" lean-forward="true" selection-start-line="173" selection-start-column="10" selection-end-line="173" selection-end-column="10" />
-          <folding>
-            <element signature="e#3761#3778#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/admin/changeimage5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="174" column="10" lean-forward="true" selection-start-line="174" selection-start-column="10" selection-end-line="174" selection-end-column="10" />
-          <folding>
-            <element signature="e#3577#3606#0#HTML" expanded="true" />
-            <element signature="e#3744#3761#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
