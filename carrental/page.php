@@ -5,14 +5,14 @@ include('includes/config.php');
 ?>
 
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="es">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="keywords" content="">
 <meta name="description" content="">
-<title>Car Rental Portal | Page details</title>
+<title>Burengo Car Rental | Detalles de Pagina</title>
 <!--Bootstrap -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
 <!--Custome Style -->
@@ -70,7 +70,7 @@ foreach($results as $result)
         <h1><?php   echo htmlentities($result->PageName); ?></h1>
       </div>
       <ul class="coustom-breadcrumb">
-        <li><a href="#">Home</a></li>
+        <li><a href="#">Inicio</a></li>
         <li><?php   echo htmlentities($result->PageName); ?></li>
       </ul>
     </div>
