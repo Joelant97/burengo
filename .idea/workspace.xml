@@ -2,99 +2,103 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f9cd809-5b75-4359-a03d-2846a47d87f9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/carrental/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/carrental/includes/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carrental/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/carrental/includes/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carrental/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/carrental/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carrental/admin/manage-bookings.php" beforeDir="false" afterPath="$PROJECT_DIR$/carrental/admin/manage-bookings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carrental/admin/manage-brands.php" beforeDir="false" afterPath="$PROJECT_DIR$/carrental/admin/manage-brands.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carrental/admin/manage-conactusquery.php" beforeDir="false" afterPath="$PROJECT_DIR$/carrental/admin/manage-conactusquery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carrental/admin/manage-pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/carrental/admin/manage-pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carrental/admin/manage-subscribers.php" beforeDir="false" afterPath="$PROJECT_DIR$/carrental/admin/manage-subscribers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carrental/admin/manage-vehicles.php" beforeDir="false" afterPath="$PROJECT_DIR$/carrental/admin/manage-vehicles.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2057325937">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="php" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PHP" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="991" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="991" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="create-brand.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carrental/admin/create-brand.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carrental/admin/manage-bookings.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1989">
-              <caret line="117" column="128" lean-forward="true" selection-start-line="117" selection-start-column="128" selection-end-line="117" selection-end-column="128" />
+              <caret line="117" column="60" lean-forward="true" selection-start-line="117" selection-start-column="60" selection-end-line="117" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carrental/admin/dashboard.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carrental/admin/manage-brands.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3349">
-              <caret line="197" column="133" selection-start-line="197" selection-start-column="133" selection-end-line="197" selection-end-column="133" />
+            <state relative-caret-position="2805">
+              <caret line="165" column="10" lean-forward="true" selection-start-line="165" selection-start-column="10" selection-end-line="165" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit-brand.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carrental/admin/edit-brand.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carrental/admin/manage-conactusquery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            <state relative-caret-position="160">
+              <caret line="142" column="131" selection-start-line="142" selection-start-column="131" selection-end-line="142" selection-end-column="131" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit-vehicle.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carrental/admin/edit-vehicle.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carrental/admin/manage-pages.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="491" column="10" lean-forward="true" selection-start-line="491" selection-start-column="10" selection-end-line="491" selection-end-column="10" />
-              <folding>
-                <element signature="e#5619#5636#0#HTML" expanded="true" />
-                <element signature="e#5868#5885#0#HTML" expanded="true" />
-                <element signature="e#6700#6717#0#HTML" expanded="true" />
-                <element signature="e#7000#7017#0#HTML" expanded="true" />
-                <element signature="e#7251#7268#0#HTML" expanded="true" />
-                <element signature="e#7700#7717#0#HTML" expanded="true" />
-                <element signature="e#7947#7964#0#HTML" expanded="true" />
-                <element signature="e#8700#8729#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="160">
+              <caret line="207" column="154" lean-forward="true" selection-start-line="207" selection-start-column="154" selection-end-line="207" selection-end-column="154" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carrental/index.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/carrental/includes/header.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carrental/admin/manage-subscribers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="110" lean-forward="true" selection-start-line="6" selection-start-column="110" selection-end-line="6" selection-end-column="110" />
+            <state relative-caret-position="2193">
+              <caret line="129" column="105" selection-start-line="129" selection-start-column="105" selection-end-line="129" selection-end-column="105" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact-us.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carrental/contact-us.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/carrental/admin/manage-vehicles.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="126" column="18" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carrental/includes/footer.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carrental/page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="66" column="25" lean-forward="true" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+            <state relative-caret-position="194">
+              <caret line="135" column="101" selection-start-line="135" selection-start-column="101" selection-end-line="135" selection-end-column="101" />
             </state>
           </provider>
         </entry>
@@ -164,10 +168,15 @@
         <option value="$PROJECT_DIR$/carrental/admin/dashboard.php" />
         <option value="$PROJECT_DIR$/carrental/admin/edit-brand.php" />
         <option value="$PROJECT_DIR$/carrental/admin/edit-vehicle.php" />
-        <option value="$PROJECT_DIR$/carrental/admin/manage-bookings.php" />
         <option value="$PROJECT_DIR$/carrental/includes/sidebar.php" />
         <option value="$PROJECT_DIR$/carrental/page.php" />
         <option value="$PROJECT_DIR$/carrental/includes/header.php" />
+        <option value="$PROJECT_DIR$/carrental/admin/manage-bookings.php" />
+        <option value="$PROJECT_DIR$/carrental/admin/manage-brands.php" />
+        <option value="$PROJECT_DIR$/carrental/admin/manage-conactusquery.php" />
+        <option value="$PROJECT_DIR$/carrental/admin/manage-pages.php" />
+        <option value="$PROJECT_DIR$/carrental/admin/manage-subscribers.php" />
+        <option value="$PROJECT_DIR$/carrental/admin/manage-vehicles.php" />
       </list>
     </option>
   </component>
@@ -183,9 +192,6 @@
       <select />
     </treeState>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -197,6 +203,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,15 +215,23 @@
             <path>
               <item name="burengo" type="b2602c69:ProjectViewProjectNode" />
               <item name="burengo" type="462c0819:PsiDirectoryNode" />
+              <item name="carrental" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="burengo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="burengo" type="462c0819:PsiDirectoryNode" />
+              <item name="carrental" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="burengo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="burengo" type="462c0819:PsiDirectoryNode" />
               <item name="sqlfile" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,44 +260,23 @@
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -295,83 +290,85 @@
       <option name="presentableId" value="Default" />
       <updated>1567721096265</updated>
       <workItem from="1567721101632" duration="6278000" />
+      <workItem from="1569437394789" duration="4242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6278000" />
+    <option name="totallyTimeSpent" value="10520000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="816" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286385" />
-      <window_info anchor="right" id="Palette&#9;" order="10" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32928804" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3286385" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286385" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32842416" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921754" visible="true" weight="0.19902913" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="SciView" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921754" visible="true" weight="0.20095949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="4" sideWeight="0.5007825" side_tool="true" weight="0.26618123" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3286385" />
-      <window_info anchor="right" id="Gradle" order="6" weight="0.32928804" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.3286385" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3286385" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286385" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286385" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286385" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3286385" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32842416" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3286385" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3286385" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3286385" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32928804" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32928804" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="SciView" order="11" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Build" order="7" weight="0.3286385" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921754" visible="true" weight="0.19902913" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286385" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.5007825" side_tool="true" weight="0.26618123" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32842416" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3286385" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286385" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3286385" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286385" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286385" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3286385" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32842416" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3286385" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3286385" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3286385" />
+      <window_info anchor="right" id="SciView" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32928804" />
       <window_info anchor="right" id="Gradle" order="7" weight="0.32928804" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921754" visible="true" weight="0.19902913" />
-      <window_info anchor="right" id="SciView" order="0" />
       <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286385" />
-      <window_info anchor="right" id="Palette&#9;" order="11" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="Palette&#9;" order="11" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,79 +378,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/carrental/admin/includes/config.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/admin/create-brand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="117" column="128" lean-forward="true" selection-start-line="117" selection-start-column="128" selection-end-line="117" selection-end-column="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/admin/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3349">
-          <caret line="197" column="133" selection-start-line="197" selection-start-column="133" selection-end-line="197" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/admin/edit-brand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1018" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/admin/logout.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/admin/manage-bookings.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/admin/edit-vehicle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="491" column="10" lean-forward="true" selection-start-line="491" selection-start-column="10" selection-end-line="491" selection-end-column="10" />
-          <folding>
-            <element signature="e#5619#5636#0#HTML" expanded="true" />
-            <element signature="e#5868#5885#0#HTML" expanded="true" />
-            <element signature="e#6700#6717#0#HTML" expanded="true" />
-            <element signature="e#7000#7017#0#HTML" expanded="true" />
-            <element signature="e#7251#7268#0#HTML" expanded="true" />
-            <element signature="e#7700#7717#0#HTML" expanded="true" />
-            <element signature="e#7947#7964#0#HTML" expanded="true" />
-            <element signature="e#8700#8729#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/carrental/includes/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/includes/footer.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/contact-us.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="126" column="18" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carrental/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="25" lean-forward="true" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -463,7 +391,130 @@
     <entry file="file://$PROJECT_DIR$/carrental/includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="110" lean-forward="true" selection-start-line="6" selection-start-column="110" selection-end-line="6" selection-end-column="110" />
+          <caret line="6" column="110" selection-start-line="6" selection-start-column="110" selection-end-line="6" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/includes/leftbar.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/includes/config.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/contact-us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="126" column="18" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/change-password.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2356" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/create-brand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="117" column="128" selection-start-line="117" selection-start-column="128" selection-end-line="117" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-214">
+          <caret line="197" column="133" selection-start-line="197" selection-start-column="133" selection-end-line="197" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/edit-vehicle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4300">
+          <caret line="491" column="10" selection-start-line="491" selection-start-column="10" selection-end-line="491" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-775" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/logout.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/changeimage5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1778" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/edit-brand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1914">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/manage-bookings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="117" column="60" lean-forward="true" selection-start-line="117" selection-start-column="60" selection-end-line="117" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/manage-brands.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2805">
+          <caret line="165" column="10" lean-forward="true" selection-start-line="165" selection-start-column="10" selection-end-line="165" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/manage-conactusquery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="142" column="131" selection-start-line="142" selection-start-column="131" selection-end-line="142" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/manage-pages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="207" column="154" lean-forward="true" selection-start-line="207" selection-start-column="154" selection-end-line="207" selection-end-column="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/manage-subscribers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="129" column="105" selection-start-line="129" selection-start-column="105" selection-end-line="129" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/reg-users.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/update-contactinfo.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/post-avehical.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrental/admin/manage-vehicles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="135" column="101" selection-start-line="135" selection-start-column="101" selection-end-line="135" selection-end-column="101" />
         </state>
       </provider>
     </entry>

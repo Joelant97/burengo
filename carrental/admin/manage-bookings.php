@@ -17,7 +17,7 @@ $query -> bindParam(':status',$status, PDO::PARAM_STR);
 $query-> bindParam(':eid',$eid, PDO::PARAM_STR);
 $query -> execute();
 
-$msg="Booking Successfully Cancelled";
+$msg="Reserva Cancelada con éxito.";
 }
 
 
@@ -115,7 +115,7 @@ $msg="Reserva confirmada con éxito";
 											<th>Auto</th>
 											<th>Partir de la fecha</th>
 											<th>Hasta la fecha</th>
-											<th>Message</th>
+											<th>Mensaje</th>
 											<th>Estado</th>
 											<th>Fecha de Publicación</th>
 											<th>Acción</th>
@@ -128,7 +128,7 @@ $msg="Reserva confirmada con éxito";
                                             <th>Auto</th>
                                             <th>Partir de la fecha</th>
                                             <th>Hasta la fecha</th>
-                                            <th>Message</th>
+                                            <th>Mensaje</th>
                                             <th>Estado</th>
                                             <th>Fecha de Publicación</th>
                                             <th>Acción</th>

@@ -16,7 +16,7 @@ $query = $dbh->prepare($sql);
 $query -> bindParam(':pagetype',$pagetype, PDO::PARAM_STR);
 $query-> bindParam(':pagedetails',$pagedetails, PDO::PARAM_STR);
 $query -> execute();
-$msg="Page data updated  successfully";
+$msg="Datos de la página Actualizados";
 
 }
 
@@ -33,7 +33,7 @@ $msg="Page data updated  successfully";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>Car Rental Portal | Admin Create Brand</title>
+	<title>Burengo | Administrar Crear Marca</title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -66,14 +66,14 @@ function MM_validateForm() { //v4.0
   for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=MM_findObj(args[i]);
     if (val) { nm=val.name; if ((val=val.value)!="") {
       if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
-        if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        if (p<1 || p==(val.length-1)) errors+='- '+nm+' debe contener una dirección de correo electrónico.\n';
       } else if (test!='R') { num = parseFloat(val);
-        if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+        if (isNaN(val)) errors+='- '+nm+' debe contener un numero.\n';
         if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
           min=test.substring(8,p); max=test.substring(p+1);
-          if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
-    } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
-  } if (errors) alert('The following error(s) occurred:\n'+errors);
+          if (num<min || max<num) errors+='- '+nm+' debe contener un número entre '+min+' y '+max+'.\n';
+    } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' es requerido.\n'; }
+  } if (errors) alert('El siguiente error(s) ocurrió:\n'+errors);
   document.MM_returnValue = (errors == '');
 }
 
@@ -119,26 +119,26 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 				<div class="row">
 					<div class="col-md-12">
 					
-						<h2 class="page-title">Manage Pages </h2>
+						<h2 class="page-title">Administrar Paginas </h2>
 
 						<div class="row">
 							<div class="col-md-10">
 								<div class="panel panel-default">
-									<div class="panel-heading">Form fields</div>
+									<div class="panel-heading">Campos del Formulario</div>
 									<div class="panel-body">
 										<form method="post" name="chngpwd" class="form-horizontal" onSubmit="return valid();">
 										
 											
   	        	  <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
-				else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
+				else if($msg){?><div class="succWrap"><strong>CORRECTO</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
 											<div class="form-group">
-												<label class="col-sm-4 control-label">select Page</label>
+												<label class="col-sm-4 control-label">seleccione Página</label>
 												<div class="col-sm-8">
 															   <select name="menu1" onChange="MM_jumpMenu('parent',this,0)">
-                  <option value="" selected="selected" class="form-control">***Select One***</option>
-                  <option value="manage-pages.php?type=terms">terms and condition</option>
-                  <option value="manage-pages.php?type=privacy">privacy and policy</option>
-                  <option value="manage-pages.php?type=aboutus">aboutus</option> 
+                  <option value="" selected="selected" class="form-control">***Seleccione Una***</option>
+                  <option value="manage-pages.php?type=terms">Términos y Condiciones</option>
+                  <option value="manage-pages.php?type=privacy">Privacidad y Política</option>
+                  <option value="manage-pages.php?type=aboutus">Sobre Nosotros</option>
                   <option value="manage-pages.php?type=faqs">FAQs</option>
                 </select>
 												</div>
@@ -146,22 +146,22 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 											<div class="hr-dashed"></div>
 											
 											<div class="form-group">
-												<label class="col-sm-4 control-label">selected Page</label>
+												<label class="col-sm-4 control-label">Página seleccionada</label>
 												<div class="col-sm-8">
 						<?php
 			
 			switch($_GET['type'])
 			{
 				case "terms" :
-									echo "Terms and Conditions";
+									echo "Términos y Condiciones";
 									break;
 				
 				case "privacy" :
-									echo "Privacy And Policy";
+									echo "Privacidad y Política";
 									break;
 				
 				case "aboutus" :
-									echo "About US";
+									echo "Sobre Nosotros";
 									break;
 			
 				case "faqs" :
@@ -179,9 +179,9 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 											</div>
 								
 									<div class="form-group">
-												<label class="col-sm-4 control-label">Page Details </label>
+												<label class="col-sm-4 control-label">Detalles Página</label>
 												<div class="col-sm-8">
-			<textarea class="form-control" rows="5" cols="50" name="pgedetails" id="pgedetails" placeholder="Package Details" required>
+			<textarea class="form-control" rows="5" cols="50" name="pgedetails" id="pgedetails" placeholder="Detalles del paquete" required>
 										<?php 
 $pagetype=$_GET['type'];
 $sql = "SELECT detail from tblpages where type=:pagetype";
@@ -205,7 +205,7 @@ echo htmlentities($result->detail);
 											<div class="form-group">
 												<div class="col-sm-8 col-sm-offset-4">
 								
-												<button type="submit" name="submit" value="Update" id="submit" class="btn-primary btn">Update</button>
+												<button type="submit" name="submit" value="Update" id="submit" class="btn-primary btn">Actualizar</button>
 												</div>
 											</div>
 

@@ -14,7 +14,7 @@ $sql = "delete from  tblsubscribers  WHERE id=:id";
 $query = $dbh->prepare($sql);
 $query -> bindParam(':id',$id, PDO::PARAM_STR);
 $query -> execute();
-$msg="Subscriber info deleted";
+$msg="Información del Suscriptor Eliminada";
 
 }
 
@@ -32,7 +32,7 @@ $msg="Subscriber info deleted";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>Car Rental Portal |Admin Manage Subscribers   </title>
+	<title>Burengo |Administrar Suscriptores </title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -82,29 +82,29 @@ $msg="Subscriber info deleted";
 				<div class="row">
 					<div class="col-md-12">
 
-						<h2 class="page-title">Manage Subscribers</h2>
+						<h2 class="page-title">Administrar Suscriptores</h2>
 
 						<!-- Zero Configuration Table -->
 						<div class="panel panel-default">
-							<div class="panel-heading">Subscribers Details</div>
+							<div class="panel-heading">Suscriptores Detalles</div>
 							<div class="panel-body">
 							<?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
-				else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
+				else if($msg){?><div class="succWrap"><strong>CORRECTO</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
 								<table id="zctb" class="display table table-striped table-bordered table-hover" cellspacing="0" width="100%">
 									<thead>
 										<tr>
 										<th>#</th>
 												<th>Email Id</th>
-											<th>Subscription Date</th>
-											<th>Action</th>
+											<th>Fecha de Suscripción</th>
+											<th>Acción</th>
 										</tr>
 									</thead>
 									<tfoot>
 										<tr>
 										<th>#</th>
 										<th>Email Id</th>
-										<th>Subscription Date</th>
-											<th>Action</th>
+										<th>Fecha de Suscripción</th>
+											<th>Acción</th>
 										</tr>
 									</tfoot>
 									<tbody>
@@ -127,7 +127,7 @@ foreach($results as $result)
 										<td>
 
 
-<a href="manage-subscribers.php?del=<?php echo $result->id;?>" onclick="return confirm('Do you want to delete');"><i class="fa fa-close"></i></a>
+<a href="manage-subscribers.php?del=<?php echo $result->id;?>" onclick="return confirm('Desea Eliminarlo?');"><i class="fa fa-close"></i></a>
 </td>
 
 										</tr>

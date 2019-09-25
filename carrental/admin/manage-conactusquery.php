@@ -17,7 +17,7 @@ $query -> bindParam(':status',$status, PDO::PARAM_STR);
 $query-> bindParam(':eid',$eid, PDO::PARAM_STR);
 $query -> execute();
 
-$msg="Testimonial Successfully Inacrive";
+$msg="Testimonio exitosamente inactivo";
 }
 
 
@@ -35,7 +35,7 @@ $msg="Testimonial Successfully Inacrive";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>Car Rental Portal |Admin Manage Queries   </title>
+	<title>Burengo |Administrar Consultas </title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -85,35 +85,35 @@ $msg="Testimonial Successfully Inacrive";
 				<div class="row">
 					<div class="col-md-12">
 
-						<h2 class="page-title">Manage Contact Us Queries</h2>
+						<h2 class="page-title">Administrar Consulta nuestros Contactos</h2>
 
 						<!-- Zero Configuration Table -->
 						<div class="panel panel-default">
-							<div class="panel-heading">User queries</div>
+							<div class="panel-heading">Usuario Consultas</div>
 							<div class="panel-body">
 							<?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
-				else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
+				else if($msg){?><div class="succWrap"><strong>CORRECTO</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
 								<table id="zctb" class="display table table-striped table-bordered table-hover" cellspacing="0" width="100%">
 									<thead>
 										<tr>
 										<th>#</th>
-											<th>Name</th>
+											<th>Nombre</th>
 											<th>Email</th>
-											<th>Contact No</th>
-											<th>Message</th>
-											<th>Posting date</th>
-											<th>Action</th>
+											<th>Contacto No</th>
+											<th>Mensaje</th>
+											<th>Fecha de Publicación</th>
+											<th>Acción</th>
 										</tr>
 									</thead>
 									<tfoot>
 										<tr>
 										<th>#</th>
-											<th>Name</th>
+											<th>Nombre</th>
 											<th>Email</th>
-											<th>Contact No</th>
-											<th>Message</th>
-											<th>Posting date</th>
-											<th>Action</th>
+											<th>Contacto No</th>
+											<th>Mensaje</th>
+											<th>Fecha de Publicación</th>
+											<th>Acción</th>
 										</tr>
 										</tr>
 									</tfoot>
@@ -140,7 +140,7 @@ foreach($results as $result)
 	?><td>Read</td>
 <?php } else {?>
 
-<td><a href="manage-conactusquery.php?eid=<?php echo htmlentities($result->id);?>" onclick="return confirm('Do you really want to read')" >Pending</a>
+<td><a href="manage-conactusquery.php?eid=<?php echo htmlentities($result->id);?>" onclick="return confirm('Realmente desea Leerlo?')" >Pending</a>
 </td>
 <?php } ?>
 										</tr>
