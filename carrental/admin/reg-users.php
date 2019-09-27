@@ -83,40 +83,40 @@ $msg="Los datos de la Página fueron actualizados.";
 				<div class="row">
 					<div class="col-md-12">
 
-						<h2 class="page-title">Registered Users</h2>
+						<h2 class="page-title">Usuarios Registrados</h2>
 
 						<!-- Zero Configuration Table -->
 						<div class="panel panel-default">
-							<div class="panel-heading">Reg Users</div>
+							<div class="panel-heading">Reg Usuarios</div>
 							<div class="panel-body">
 							<?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
-				else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
+				else if($msg){?><div class="succWrap"><strong>CORRECTO</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
 								<table id="zctb" class="display table table-striped table-bordered table-hover" cellspacing="0" width="100%">
 									<thead>
 										<tr>
 										<th>#</th>
-												<th> Name</th>
+												<th> Nombre</th>
 											<th>Email </th>
-											<th>Contact no</th>
-										<th>DOB</th>
-										<th>Address</th>
-										<th>City</th>
-										<th>Country</th>
-										<th>Reg Date</th>
+											<th>Contacto </th>
+										<th>Fecha Nacimiento</th>
+										<th>Dirección</th>
+										<th>Ciudad</th>
+										<th>País</th>
+										<th>Fecha de Registro</th>
 										
 										</tr>
 									</thead>
 									<tfoot>
 										<tr>
 										<th>#</th>
-											<th> Name</th>
+											<th> Nombre</th>
 											<th>Email </th>
-											<th>Contact no</th>
-										<th>DOB</th>
-										<th>Address</th>
-										<th>City</th>
-										<th>Country</th>
-										<th>Reg Date</th>
+											<th>Contacto</th>
+										<th>Fecha Nacimiento</th>
+										<th>Dirección</th>
+										<th>Ciudad</th>
+										<th>País</th>
+										<th>Fecha de Registro</th>
 										</tr>
 										</tr>
 									</tfoot>
