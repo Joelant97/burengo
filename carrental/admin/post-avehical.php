@@ -70,11 +70,11 @@ $query->execute();
 $lastInsertId = $dbh->lastInsertId();
 if($lastInsertId)
 {
-$msg="Vehicle posted successfully";
+$msg="Vehiculo Publicado";
 }
 else 
 {
-$error="Something went wrong. Please try again";
+$error="Algo esta mal!. Intenta de nuevo.";
 }
 
 }
@@ -92,7 +92,7 @@ $error="Something went wrong. Please try again";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>Car Rental Portal | Admin Post Vehicle</title>
+	<title>Burengo | Administrar publicación de Vehiculo</title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -141,26 +141,26 @@ $error="Something went wrong. Please try again";
 				<div class="row">
 					<div class="col-md-12">
 					
-						<h2 class="page-title">Post A Vehicle</h2>
+						<h2 class="page-title">Publicar un Vehiculo</h2>
 
 						<div class="row">
 							<div class="col-md-12">
 								<div class="panel panel-default">
-									<div class="panel-heading">Basic Info</div>
+									<div class="panel-heading">Información Basica</div>
 <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
-				else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
+				else if($msg){?><div class="succWrap"><strong>CORRECTO</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
 
 									<div class="panel-body">
 <form method="post" class="form-horizontal" enctype="multipart/form-data">
 <div class="form-group">
-<label class="col-sm-2 control-label">Vehicle Title<span style="color:red">*</span></label>
+<label class="col-sm-2 control-label">Titulo del Vehiculo<span style="color:red">*</span></label>
 <div class="col-sm-4">
 <input type="text" name="vehicletitle" class="form-control" required>
 </div>
-<label class="col-sm-2 control-label">Select Brand<span style="color:red">*</span></label>
+<label class="col-sm-2 control-label">Seleccionar Marca<span style="color:red">*</span></label>
 <div class="col-sm-4">
 <select class="selectpicker" name="brandname" required>
-<option value=""> Select </option>
+<option value=""> Seleccionar </option>
 <?php $ret="select id,BrandName from tblbrands";
 $query= $dbh -> prepare($ret);
 //$query->bindParam(':id',$id, PDO::PARAM_STR);
@@ -180,36 +180,36 @@ foreach($results as $result)
 											
 <div class="hr-dashed"></div>
 <div class="form-group">
-<label class="col-sm-2 control-label">Vehical Overview<span style="color:red">*</span></label>
+<label class="col-sm-2 control-label">Resumen del Vehículo<span style="color:red">*</span></label>
 <div class="col-sm-10">
 <textarea class="form-control" name="vehicalorcview" rows="3" required></textarea>
 </div>
 </div>
 
 <div class="form-group">
-<label class="col-sm-2 control-label">Price Per Day(in USD)<span style="color:red">*</span></label>
+<label class="col-sm-2 control-label">Precio Por Día(en DOP)<span style="color:red">*</span></label>
 <div class="col-sm-4">
 <input type="text" name="priceperday" class="form-control" required>
 </div>
-<label class="col-sm-2 control-label">Select Fuel Type<span style="color:red">*</span></label>
+<label class="col-sm-2 control-label">Combustible<span style="color:red">*</span></label>
 <div class="col-sm-4">
 <select class="selectpicker" name="fueltype" required>
-<option value=""> Select </option>
+<option value=""> Seleccionar </option>
 
 <option value="Petrol">Petrol</option>
 <option value="Diesel">Diesel</option>
-<option value="CNG">CNG</option>
+<option value="CNG">GLP</option>
 </select>
 </div>
 </div>
 
 
 <div class="form-group">
-<label class="col-sm-2 control-label">Model Year<span style="color:red">*</span></label>
+<label class="col-sm-2 control-label">Año Modelo<span style="color:red">*</span></label>
 <div class="col-sm-4">
 <input type="text" name="modelyear" class="form-control" required>
 </div>
-<label class="col-sm-2 control-label">Seating Capacity<span style="color:red">*</span></label>
+<label class="col-sm-2 control-label">Numero de Asientos<span style="color:red">*</span></label>
 <div class="col-sm-4">
 <input type="text" name="seatingcapacity" class="form-control" required>
 </div>
@@ -219,30 +219,30 @@ foreach($results as $result)
 
 <div class="form-group">
 <div class="col-sm-12">
-<h4><b>Upload Images</b></h4>
+<h4><b>Cargar Imagenes</b></h4>
 </div>
 </div>
 
 
 <div class="form-group">
 <div class="col-sm-4">
-Image 1 <span style="color:red">*</span><input type="file" name="img1" required>
+Imagen1 <span style="color:red">*</span><input type="file" name="img1" required>
 </div>
 <div class="col-sm-4">
-Image 2<span style="color:red">*</span><input type="file" name="img2" required>
+Imagen 2<span style="color:red">*</span><input type="file" name="img2" required>
 </div>
 <div class="col-sm-4">
-Image 3<span style="color:red">*</span><input type="file" name="img3" required>
+Imagen 3<span style="color:red">*</span><input type="file" name="img3" required>
 </div>
 </div>
 
 
 <div class="form-group">
 <div class="col-sm-4">
-Image 4<span style="color:red">*</span><input type="file" name="img4" required>
+Imagen 4<span style="color:red">*</span><input type="file" name="img4" required>
 </div>
 <div class="col-sm-4">
-Image 5<input type="file" name="img5">
+Imagen 5<input type="file" name="img5">
 </div>
 
 </div>
@@ -256,7 +256,7 @@ Image 5<input type="file" name="img5">
 <div class="row">
 <div class="col-md-12">
 <div class="panel panel-default">
-<div class="panel-heading">Accessories</div>
+<div class="panel-heading">Accesorios</div>
 <div class="panel-body">
 
 
@@ -264,22 +264,22 @@ Image 5<input type="file" name="img5">
 <div class="col-sm-3">
 <div class="checkbox checkbox-inline">
 <input type="checkbox" id="airconditioner" name="airconditioner" value="1">
-<label for="airconditioner"> Air Conditioner </label>
+<label for="airconditioner"> Aire Acondicionado </label>
 </div>
 </div>
 <div class="col-sm-3">
 <div class="checkbox checkbox-inline">
 <input type="checkbox" id="powerdoorlocks" name="powerdoorlocks" value="1">
-<label for="powerdoorlocks"> Power Door Locks </label>
+<label for="powerdoorlocks"> Cerraduras Eléctricas </label>
 </div></div>
 <div class="col-sm-3">
 <div class="checkbox checkbox-inline">
 <input type="checkbox" id="antilockbrakingsys" name="antilockbrakingsys" value="1">
-<label for="antilockbrakingsys"> AntiLock Braking System </label>
+<label for="antilockbrakingsys"> Frenos Antibloqueo </label>
 </div></div>
 <div class="checkbox checkbox-inline">
 <input type="checkbox" id="brakeassist" name="brakeassist" value="1">
-<label for="brakeassist"> Brake Assist </label>
+<label for="brakeassist"> Asistente de freno </label>
 </div>
 </div>
 
@@ -290,23 +290,23 @@ Image 5<input type="file" name="img5">
 <div class="checkbox checkbox-inline">
 <input type="checkbox" id="powersteering" name="powersteering" value="1">
 <input type="checkbox" id="powersteering" name="powersteering" value="1">
-<label for="inlineCheckbox5"> Power Steering </label>
+<label for="inlineCheckbox5"> Dirección Asistida </label>
 </div>
 </div>
 <div class="col-sm-3">
 <div class="checkbox checkbox-inline">
 <input type="checkbox" id="driverairbag" name="driverairbag" value="1">
-<label for="driverairbag">Driver Airbag</label>
+<label for="driverairbag">Bolsa de aire chofer</label>
 </div>
 </div>
 <div class="col-sm-3">
 <div class="checkbox checkbox-inline">
 <input type="checkbox" id="passengerairbag" name="passengerairbag" value="1">
-<label for="passengerairbag"> Passenger Airbag </label>
+<label for="passengerairbag"> Bolsa de aire pasajeros </label>
 </div></div>
 <div class="checkbox checkbox-inline">
 <input type="checkbox" id="powerwindow" name="powerwindow" value="1">
-<label for="powerwindow"> Power Windows </label>
+<label for="powerwindow"> Ventanas Eléctricas </label>
 </div>
 </div>
 
@@ -315,23 +315,23 @@ Image 5<input type="file" name="img5">
 <div class="col-sm-3">
 <div class="checkbox checkbox-inline">
 <input type="checkbox" id="cdplayer" name="cdplayer" value="1">
-<label for="cdplayer"> CD Player </label>
+<label for="cdplayer"> Reproductor de CD </label>
 </div>
 </div>
 <div class="col-sm-3">
 <div class="checkbox h checkbox-inline">
 <input type="checkbox" id="centrallocking" name="centrallocking" value="1">
-<label for="centrallocking">Central Locking</label>
+<label for="centrallocking">Cierre Centralizado</label>
 </div></div>
 <div class="col-sm-3">
 <div class="checkbox checkbox-inline">
 <input type="checkbox" id="crashcensor" name="crashcensor" value="1">
-<label for="crashcensor"> Crash Sensor </label>
+<label for="crashcensor"> Sensor de Choque</label>
 </div></div>
 <div class="col-sm-3">
 <div class="checkbox checkbox-inline">
 <input type="checkbox" id="leatherseats" name="leatherseats" value="1">
-<label for="leatherseats"> Leather Seats </label>
+<label for="leatherseats"> Asientos de piel </label>
 </div>
 </div>
 </div>
@@ -341,8 +341,8 @@ Image 5<input type="file" name="img5">
 
 											<div class="form-group">
 												<div class="col-sm-8 col-sm-offset-2">
-													<button class="btn btn-default" type="reset">Cancel</button>
-													<button class="btn btn-primary" name="submit" type="submit">Save changes</button>
+													<button class="btn btn-default" type="reset">Cancelar</button>
+													<button class="btn btn-primary" name="submit" type="submit">Guardar cambios</button>
 												</div>
 											</div>
 
