@@ -5,7 +5,7 @@ if(!empty($_POST["emailid"])) {
 	$email= $_POST["emailid"];
 	if (filter_var($email, FILTER_VALIDATE_EMAIL)===false) {
 
-		echo "error : You did not enter a valid email.";
+		echo "error : Usted no usó un email disponible.";
 	}
 	else {
 		$sql ="SELECT EmailId FROM tblusers WHERE EmailId=:email";
@@ -16,11 +16,11 @@ $results = $query -> fetchAll(PDO::FETCH_OBJ);
 $cnt=1;
 if($query -> rowCount() > 0)
 {
-echo "<span style='color:red'> Email already exists .</span>";
+echo "<span style='color:red'> Email ya existe .</span>";
  echo "<script>$('#submit').prop('disabled',true);</script>";
 } else{
 	
-	echo "<span style='color:green'> Email available for Registration .</span>";
+	echo "<span style='color:green'> Email disponible para registro.</span>";
  echo "<script>$('#submit').prop('disabled',false);</script>";
 }
 }

@@ -10,14 +10,14 @@ header('location:index.php');
 else{
 ?>
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="es">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="keywords" content="">
 <meta name="description" content="">
-<title>Car Rental Portal | My Testimonials </title>
+<title>Burengo | Mis Testimonios </title>
 <!--Bootstrap -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
 <!--Custome Style -->
@@ -51,7 +51,7 @@ else{
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 </head>
 <body>
-<?php include('includes/colorswitcher.php');?>
+<?php //include('includes/colorswitcher.php');?>
 <!-- /Switcher -->  
         
 <!--Header-->
@@ -61,11 +61,11 @@ else{
   <div class="container">
     <div class="page-header_wrap">
       <div class="page-heading">
-        <h1>My Testimonials</h1>
+        <h1>Mis Testimonios</h1>
       </div>
       <ul class="coustom-breadcrumb">
-        <li><a href="#">Home</a></li>
-        <li>My Testimonials</li>
+        <li><a href="#">Inicio</a></li>
+        <li>Mis Testimonios</li>
       </ul>
     </div>
   </div>
@@ -107,7 +107,7 @@ foreach($results as $result)
 
 
         <div class="profile_wrap">
-          <h5 class="uppercase underline">My Testimonials </h5>
+          <h5 class="uppercase underline">Mis Testimonios </h5>
           <div class="my_vehicles_list">
             <ul class="vehicle_listing">
 <?php 
@@ -127,15 +127,15 @@ foreach($results as $result)
            
                 <div>
                  <p><?php echo htmlentities($result->Testimonial);?> </p>
-                   <p><b>Posting Date:</b><?php echo htmlentities($result->PostingDate);?> </p>
+                   <p><b>Fecha Publicación:</b><?php echo htmlentities($result->PostingDate);?> </p>
                 </div>
                 <?php if($result->status==1){ ?>
-                 <div class="vehicle_status"> <a class="btn outline btn-xs active-btn">Active</a>
+                 <div class="vehicle_status"> <a class="btn outline btn-xs active-btn">Activo</a>
 
                   <div class="clearfix"></div>
                   </div>
                   <?php } else {?>
-               <div class="vehicle_status"> <a href="#" class="btn outline btn-xs">Waiting for approval</a>
+               <div class="vehicle_status"> <a href="#" class="btn outline btn-xs">Esperando aprobación</a>
                   <div class="clearfix"></div>
                   </div>
                   <?php } ?>
@@ -152,7 +152,7 @@ foreach($results as $result)
 </section>
 <!--/my-vehicles--> 
 
-<<!--Footer -->
+<!--Footer -->
 <?php include('includes/footer.php');?>
 <!-- /Footer--> 
 

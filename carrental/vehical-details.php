@@ -22,11 +22,11 @@ $query->execute();
 $lastInsertId = $dbh->lastInsertId();
 if($lastInsertId)
 {
-echo "<script>alert('Booking successfull.');</script>";
+echo "<script>alert('Reserva exitosa.');</script>";
 }
 else 
 {
-echo "<script>alert('Something went wrong. Please try again');</script>";
+echo "<script>alert('Algo salió mal. Inténtalo de nuevo');</script>";
 }
 
 }
@@ -42,7 +42,7 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="keywords" content="">
 <meta name="description" content="">
-<title>Car Rental Port | Vehicle Details</title>
+<title>Burengo | Detalles del vehículo</title>
 <!--Bootstrap -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
 <!--Custome Style -->
@@ -75,7 +75,7 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
 <body>
 
 <!-- Start Switcher -->
-<?php include('includes/colorswitcher.php');?>
+<?php //include('includes/colorswitcher.php');?>
 <!-- /Switcher -->  
 
 <!--Header-->
@@ -124,7 +124,7 @@ $_SESSION['brndid']=$result->bid;
       </div>
       <div class="col-md-3">
         <div class="price_info">
-          <p>$<?php echo htmlentities($result->PricePerDay);?> </p>Per Day
+          <p>$<?php echo htmlentities($result->PricePerDay);?> </p>Por Día
          
         </div>
       </div>
@@ -136,16 +136,16 @@ $_SESSION['brndid']=$result->bid;
           
             <li> <i class="fa fa-calendar" aria-hidden="true"></i>
               <h5><?php echo htmlentities($result->ModelYear);?></h5>
-              <p>Reg.Year</p>
+              <p>Año Reg.</p>
             </li>
             <li> <i class="fa fa-cogs" aria-hidden="true"></i>
               <h5><?php echo htmlentities($result->FuelType);?></h5>
-              <p>Fuel Type</p>
+              <p>Combustible</p>
             </li>
        
             <li> <i class="fa fa-user-plus" aria-hidden="true"></i>
               <h5><?php echo htmlentities($result->SeatingCapacity);?></h5>
-              <p>Seats</p>
+              <p>Asientos</p>
             </li>
           </ul>
         </div>
@@ -153,9 +153,9 @@ $_SESSION['brndid']=$result->bid;
           <div class="listing_detail_wrap"> 
             <!-- Nav tabs -->
             <ul class="nav nav-tabs gray-bg" role="tablist">
-              <li role="presentation" class="active"><a href="#vehicle-overview " aria-controls="vehicle-overview" role="tab" data-toggle="tab">Vehicle Overview </a></li>
+              <li role="presentation" class="active"><a href="#vehicle-overview " aria-controls="vehicle-overview" role="tab" data-toggle="tab">Resumen del vehículo</a></li>
           
-              <li role="presentation"><a href="#accessories" aria-controls="accessories" role="tab" data-toggle="tab">Accessories</a></li>
+              <li role="presentation"><a href="#accessories" aria-controls="accessories" role="tab" data-toggle="tab">Accesorios</a></li>
             </ul>
             
             <!-- Tab panes -->
@@ -173,12 +173,12 @@ $_SESSION['brndid']=$result->bid;
                 <table>
                   <thead>
                     <tr>
-                      <th colspan="2">Accessories</th>
+                      <th colspan="2">Accesorios</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Air Conditioner</td>
+                      <td>Aire Acondicionado</td>
 <?php if($result->AirConditioner==1)
 {
 ?>
@@ -188,7 +188,7 @@ $_SESSION['brndid']=$result->bid;
    <?php } ?> </tr>
 
 <tr>
-<td>AntiLock Braking System</td>
+<td>Freno Antibloqueo</td>
 <?php if($result->AntiLockBrakingSystem==1)
 {
 ?>
@@ -199,7 +199,7 @@ $_SESSION['brndid']=$result->bid;
                     </tr>
 
 <tr>
-<td>Power Steering</td>
+<td>Dirección Asistida</td>
 <?php if($result->PowerSteering==1)
 {
 ?>
@@ -212,7 +212,7 @@ $_SESSION['brndid']=$result->bid;
 
 <tr>
 
-<td>Power Windows</td>
+<td>Ventanas Eléctricas</td>
 
 <?php if($result->PowerWindows==1)
 {
@@ -224,7 +224,7 @@ $_SESSION['brndid']=$result->bid;
 </tr>
                    
  <tr>
-<td>CD Player</td>
+<td>Reproductor de CD</td>
 <?php if($result->CDPlayer==1)
 {
 ?>
@@ -235,7 +235,7 @@ $_SESSION['brndid']=$result->bid;
 </tr>
 
 <tr>
-<td>Leather Seats</td>
+<td>Asientos de piel</td>
 <?php if($result->LeatherSeats==1)
 {
 ?>
@@ -246,7 +246,7 @@ $_SESSION['brndid']=$result->bid;
 </tr>
 
 <tr>
-<td>Central Locking</td>
+<td>Cierre Centralizado</td>
 <?php if($result->CentralLocking==1)
 {
 ?>
@@ -257,7 +257,7 @@ $_SESSION['brndid']=$result->bid;
 </tr>
 
 <tr>
-<td>Power Door Locks</td>
+<td>Cerraduras Eléctricas</td>
 <?php if($result->PowerDoorLocks==1)
 {
 ?>
@@ -267,7 +267,7 @@ $_SESSION['brndid']=$result->bid;
 <?php } ?>
                     </tr>
                     <tr>
-<td>Brake Assist</td>
+<td>Asistente de freno</td>
 <?php if($result->BrakeAssist==1)
 {
 ?>
@@ -278,7 +278,7 @@ $_SESSION['brndid']=$result->bid;
 </tr>
 
 <tr>
-<td>Driver Airbag</td>
+<td>Bolsa de Aire Chof.</td>
 <?php if($result->DriverAirbag==1)
 {
 ?>
@@ -289,7 +289,7 @@ $_SESSION['brndid']=$result->bid;
  </tr>
  
  <tr>
- <td>Passenger Airbag</td>
+ <td>Bolsa de Aire Pasaj.</td>
  <?php if($result->PassengerAirbag==1)
 {
 ?>
@@ -300,7 +300,7 @@ $_SESSION['brndid']=$result->bid;
 </tr>
 
 <tr>
-<td>Crash Sensor</td>
+<td>Sensor de Choque</td>
 <?php if($result->CrashSensor==1)
 {
 ?>
@@ -329,17 +329,17 @@ $_SESSION['brndid']=$result->bid;
         </div>
         <div class="sidebar_widget">
           <div class="widget_heading">
-            <h5><i class="fa fa-envelope" aria-hidden="true"></i>Book Now</h5>
+            <h5><i class="fa fa-envelope" aria-hidden="true"></i>Reservar ahora</h5>
           </div>
           <form method="post">
             <div class="form-group">
-              <input type="text" class="form-control" name="fromdate" placeholder="From Date(dd/mm/yyyy)" required>
+              <input type="text" class="form-control" name="fromdate" placeholder="Desde Fecha(dd/mm/yyyy)" required>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="todate" placeholder="To Date(dd/mm/yyyy)" required>
+              <input type="text" class="form-control" name="todate" placeholder="Hasta Fecha(dd/mm/yyyy)" required>
             </div>
             <div class="form-group">
-              <textarea rows="4" class="form-control" name="message" placeholder="Message" required></textarea>
+              <textarea rows="4" class="form-control" name="message" placeholder="Mensaje" required></textarea>
             </div>
           <?php if($_SESSION['login'])
               {?>
@@ -347,7 +347,7 @@ $_SESSION['brndid']=$result->bid;
                 <input type="submit" class="btn"  name="submit" value="Book Now">
               </div>
               <?php } else { ?>
-<a href="#loginform" class="btn btn-xs uppercase" data-toggle="modal" data-dismiss="modal">Login For Book</a>
+<a href="#loginform" class="btn btn-xs uppercase" data-toggle="modal" data-dismiss="modal">Iniciar sesión para reservar</a>
 
               <?php } ?>
           </form>
@@ -361,7 +361,7 @@ $_SESSION['brndid']=$result->bid;
     
     <!--Similar-Cars-->
     <div class="similar_cars">
-      <h3>Similar Cars</h3>
+      <h3>Autos Similares</h3>
       <div class="row">
 <?php 
 $bid=$_SESSION['brndid'];
@@ -385,8 +385,8 @@ foreach($results as $result)
           
               <ul class="features_list">
                 
-             <li><i class="fa fa-user" aria-hidden="true"></i><?php echo htmlentities($result->SeatingCapacity);?> seats</li>
-                <li><i class="fa fa-calendar" aria-hidden="true"></i><?php echo htmlentities($result->ModelYear);?> model</li>
+             <li><i class="fa fa-user" aria-hidden="true"></i><?php echo htmlentities($result->SeatingCapacity);?> asientos</li>
+                <li><i class="fa fa-calendar" aria-hidden="true"></i><?php echo htmlentities($result->ModelYear);?> modelo</li>
                 <li><i class="fa fa-car" aria-hidden="true"></i><?php echo htmlentities($result->FuelType);?></li>
               </ul>
             </div>

@@ -26,23 +26,23 @@ $chngpwd1 = $dbh->prepare($con);
 $chngpwd1-> bindParam(':email', $email, PDO::PARAM_STR);
 $chngpwd1-> bindParam(':newpassword', $newpassword, PDO::PARAM_STR);
 $chngpwd1->execute();
-$msg="Your Password succesfully changed";
+$msg="Su contraseña fue Cambiada";
 }
 else {
-$error="Your current password is wrong";  
+$error="Tu contraseña actual es incorrecta";
 }
 }
 
 ?>
   <!DOCTYPE HTML>
-<html lang="en">
+<html lang="es">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="keywords" content="">
 <meta name="description" content="">
-<title>CarForYou - Responsive Car Dealer HTML5 Template</title>
+<title>Burengo - Autos para ti</title>
 <!--Bootstrap -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
 <!--Custome Style -->
@@ -79,7 +79,7 @@ function valid()
 {
 if(document.chngpwd.newpassword.value!= document.chngpwd.confirmpassword.value)
 {
-alert("New Password and Confirm Password Field do not match  !!");
+alert("La nueva contraseña y el campo Confirmar contraseña no coinciden  !!");
 document.chngpwd.confirmpassword.focus();
 return false;
 }
@@ -108,7 +108,7 @@ return true;
 <body>
 
 <!-- Start Switcher -->
-<?php include('includes/colorswitcher.php');?>
+<?php //include('includes/colorswitcher.php');?>
 <!-- /Switcher -->  
         
 <!--Header-->
@@ -119,11 +119,11 @@ return true;
   <div class="container">
     <div class="page-header_wrap">
       <div class="page-heading">
-        <h1>Update Password</h1>
+        <h1>Actualizar Contraseña</h1>
       </div>
       <ul class="coustom-breadcrumb">
-        <li><a href="#">Home</a></li>
-        <li>Update Password</li>
+        <li><a href="#">Inicio</a></li>
+        <li>Actualizar Contraseña</li>
       </ul>
     </div>
   </div>
@@ -164,21 +164,21 @@ foreach($results as $result)
 <form name="chngpwd" method="post" onSubmit="return valid();">
         
             <div class="gray-bg field-title">
-              <h6>Update password</h6>
+              <h6>Actualizar Contraseña</h6>
             </div>
              <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
-        else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
+        else if($msg){?><div class="succWrap"><strong>CORRECTO</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
             <div class="form-group">
-              <label class="control-label">Current Password</label>
+              <label class="control-label">Contraseña Actual</label>
               <input class="form-control white_bg" id="password" name="password"  type="password" required>
             </div>
             <div cl
             <div class="form-group">
-              <label class="control-label">Password</label>
+              <label class="control-label"Nueva Contraseña</label>
               <input class="form-control white_bg" id="newpassword" type="password" name="newpassword" required>
             </div>
             <div class="form-group">
-              <label class="control-label">Confirm Password</label>
+              <label class="control-label">Confirme Contraseña</label>
               <input class="form-control white_bg" id="confirmpassword" type="password" name="confirmpassword"  required>
             </div>
           

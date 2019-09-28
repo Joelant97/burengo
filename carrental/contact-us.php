@@ -18,11 +18,11 @@ $query->execute();
 $lastInsertId = $dbh->lastInsertId();
 if($lastInsertId)
 {
-$msg="Query Sent. We will contact you shortly";
+$msg="Consulta enviada. Nos contactaremos a la brevedad";
 }
 else 
 {
-$error="Something went wrong. Please try again";
+$error="Algo salió mal. Inténtalo de nuevo";
 }
 
 }
@@ -35,7 +35,7 @@ $error="Something went wrong. Please try again";
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="keywords" content="">
 <meta name="description" content="">
-<title>CarForYou - Responsive Car Dealer HTML5 Template</title>
+<title>Burengo - Auto para ti </title>
 <!--Bootstrap -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
 <!--Custome Style -->
@@ -87,8 +87,8 @@ $error="Something went wrong. Please try again";
 </head>
 <body>
 
-<<!-- Start Switcher -->
-<?php include('includes/colorswitcher.php');?>
+<!-- (Seleccionar los Colores) Start Switcher -->
+<?php //include('includes/colorswitcher.php');?>
 <!-- /Switcher -->  
         
 <!--Header-->
@@ -100,11 +100,11 @@ $error="Something went wrong. Please try again";
   <div class="container">
     <div class="page-header_wrap">
       <div class="page-heading">
-        <h1>Contact Us</h1>
+        <h1>Contáctenos</h1>
       </div>
       <ul class="coustom-breadcrumb">
-        <li><a href="#">Home</a></li>
-        <li>Contact Us</li>
+        <li><a href="#">Inicio</a></li>
+        <li>Contáctenos</li>
       </ul>
     </div>
   </div>
@@ -118,35 +118,35 @@ $error="Something went wrong. Please try again";
   <div class="container">
     <div  class="row">
       <div class="col-md-6">
-        <h3>Get in touch using the form below</h3>
+        <h3>Póngase en contacto con el formulario a continuación</h3>
           <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
-        else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
+        else if($msg){?><div class="succWrap"><strong>CORRECTO</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
         <div class="contact_form gray-bg">
           <form  method="post">
             <div class="form-group">
-              <label class="control-label">Full Name <span>*</span></label>
+              <label class="control-label">Nombre Completo <span>*</span></label>
               <input type="text" name="fullname" class="form-control white_bg" id="fullname" required>
             </div>
             <div class="form-group">
-              <label class="control-label">Email Address <span>*</span></label>
+              <label class="control-label">Email <span>*</span></label>
               <input type="email" name="email" class="form-control white_bg" id="emailaddress" required>
             </div>
             <div class="form-group">
-              <label class="control-label">Phone Number <span>*</span></label>
+              <label class="control-label">Teléfono <span>*</span></label>
               <input type="text" name="contactno" class="form-control white_bg" id="phonenumber" required>
             </div>
             <div class="form-group">
-              <label class="control-label">Message <span>*</span></label>
+              <label class="control-label">Mensaje <span>*</span></label>
               <textarea class="form-control white_bg" name="message" rows="4" required></textarea>
             </div>
             <div class="form-group">
-              <button class="btn" type="submit" name="send" type="submit">Send Message <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+              <button class="btn" type="submit" name="send" type="submit">Enviar mensaje <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
             </div>
           </form>
         </div>
       </div>
       <div class="col-md-6">
-        <h3>Contact Info</h3>
+        <h3>Datos de contacto</h3>
         <div class="contact_detail">
               <?php 
 $pagetype=$_GET['type'];
@@ -171,6 +171,7 @@ foreach($results as $result)
             </li>
             <li>
               <div class="icon_wrap"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                <!--- En el href aqui es donde tiene que ir el correo, al que enviaras los emails -->
               <div class="contact_info_m"><a href="mailto:contact@exampleurl.com"><?php   echo htmlentities($result->ContactNo); ?></a></div>
             </li>
           </ul>

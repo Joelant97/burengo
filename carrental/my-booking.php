@@ -15,7 +15,7 @@ else{
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="keywords" content="">
 <meta name="description" content="">
-<title>CarForYou - Responsive Car Dealer HTML5 Template</title>
+<title>Burengo - Auto para ti</title>
 <!--Bootstrap -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
 <!--Custome Style -->
@@ -70,11 +70,11 @@ else{
   <div class="container">
     <div class="page-header_wrap">
       <div class="page-heading">
-        <h1>My Booking</h1>
+        <h1>Mi Reserva</h1>
       </div>
       <ul class="coustom-breadcrumb">
-        <li><a href="#">Home</a></li>
-        <li>My Booking</li>
+        <li><a href="#">Inicio</a></li>
+        <li>Mi Reserva</li>
       </ul>
     </div>
   </div>
@@ -113,7 +113,7 @@ foreach($results as $result)
    
       <div class="col-md-6 col-sm-8">
         <div class="profile_wrap">
-          <h5 class="uppercase underline">My Booikngs </h5>
+          <h5 class="uppercase underline">Mis Reservas </h5>
           <div class="my_vehicles_list">
             <ul class="vehicle_listing">
 <?php 
@@ -133,27 +133,27 @@ foreach($results as $result)
                 <div class="vehicle_img"> <a href="vehical-details.php?vhid=<?php echo htmlentities($result->vid);?>""><img src="admin/img/vehicleimages/<?php echo htmlentities($result->Vimage1);?>" alt="image"></a> </div>
                 <div class="vehicle_title">
                   <h6><a href="vehical-details.php?vhid=<?php echo htmlentities($result->vid);?>""> <?php echo htmlentities($result->BrandName);?> , <?php echo htmlentities($result->VehiclesTitle);?></a></h6>
-                  <p><b>From Date:</b> <?php echo htmlentities($result->FromDate);?><br /> <b>To Date:</b> <?php echo htmlentities($result->ToDate);?></p>
+                  <p><b>Desde Fecha:</b> <?php echo htmlentities($result->FromDate);?><br /> <b>Hasta Fecha:</b> <?php echo htmlentities($result->ToDate);?></p>
                 </div>
                 <?php if($result->Status==1)
                 { ?>
-                <div class="vehicle_status"> <a href="#" class="btn outline btn-xs active-btn">Confirmed</a>
+                <div class="vehicle_status"> <a href="#" class="btn outline btn-xs active-btn">Confirmado</a>
                            <div class="clearfix"></div>
         </div>
 
               <?php } else if($result->Status==2) { ?>
- <div class="vehicle_status"> <a href="#" class="btn outline btn-xs">Cancelled</a>
+ <div class="vehicle_status"> <a href="#" class="btn outline btn-xs">Cancelado</a>
             <div class="clearfix"></div>
         </div>
              
 
 
                 <?php } else { ?>
- <div class="vehicle_status"> <a href="#" class="btn outline btn-xs">Not Confirm yet</a>
+ <div class="vehicle_status"> <a href="#" class="btn outline btn-xs">No confirmar aún</a>
             <div class="clearfix"></div>
         </div>
                 <?php } ?>
-       <div style="float: left"><p><b>Message:</b> <?php echo htmlentities($result->message);?> </p></div>
+       <div style="float: left"><p><b>Mensaje:</b> <?php echo htmlentities($result->message);?> </p></div>
               </li>
               <?php }} ?>
              
