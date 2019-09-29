@@ -16,11 +16,11 @@ $query->execute();
 $lastInsertId = $dbh->lastInsertId();
 if($lastInsertId)
 {
-echo "<script>alert('Registration successfull. Now you can login');</script>";
+echo "<script>alert('Registro exitoso. Ahora puedes iniciar sesión');</script>";
 }
 else 
 {
-echo "<script>alert('Something went wrong. Please try again');</script>";
+echo "<script>alert('Algo salió mal. Inténtalo de nuevo');</script>";
 }
 }
 
@@ -47,7 +47,7 @@ function valid()
 {
 if(document.signup.password.value!= document.signup.confirmpassword.value)
 {
-alert("Password and Confirm Password Field do not match  !!");
+alert("La contraseña y el campo Confirmar contraseña no coinciden  !!");
 document.signup.confirmpassword.focus();
 return false;
 }
@@ -59,7 +59,7 @@ return true;
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h3 class="modal-title">Sign Up</h3>
+        <h3 class="modal-title">Regístrate</h3>
       </div>
       <div class="modal-body">
         <div class="row">
@@ -67,27 +67,27 @@ return true;
             <div class="col-md-12 col-sm-6">
               <form  method="post" name="signup" onSubmit="return valid();">
                 <div class="form-group">
-                  <input type="text" class="form-control" name="fullname" placeholder="Full Name" required="required">
+                  <input type="text" class="form-control" name="fullname" placeholder="Nombre Completo" required="required">
                 </div>
                       <div class="form-group">
-                  <input type="text" class="form-control" name="mobileno" placeholder="Mobile Number" maxlength="10" required="required">
+                  <input type="text" class="form-control" name="mobileno" placeholder="Teléfono" maxlength="10" required="required">
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control" name="emailid" id="emailid" onBlur="checkAvailability()" placeholder="Email Address" required="required">
+                  <input type="email" class="form-control" name="emailid" id="emailid" onBlur="checkAvailability()" placeholder="Correo Eléctronico" required="required">
                    <span id="user-availability-status" style="font-size:12px;"></span> 
                 </div>
                 <div class="form-group">
-                  <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+                  <input type="password" class="form-control" name="password" placeholder="Contraseña" required="required">
                 </div>
                 <div class="form-group">
-                  <input type="password" class="form-control" name="confirmpassword" placeholder="Confirm Password" required="required">
+                  <input type="password" class="form-control" name="confirmpassword" placeholder="Confirme Contraseña" required="required">
                 </div>
                 <div class="form-group checkbox">
                   <input type="checkbox" id="terms_agree" required="required" checked="">
-                  <label for="terms_agree">I Agree with <a href="#">Terms and Conditions</a></label>
+                  <label for="terms_agree">Estoy de acuerdo con los <a href="#">Terminos y Condiciones</a></label>
                 </div>
                 <div class="form-group">
-                  <input type="submit" value="Sign Up" name="signup" id="submit" class="btn btn-block">
+                  <input type="submit" value="Registrarse" name="signup" id="submit" class="btn btn-block">
                 </div>
               </form>
             </div>
@@ -96,7 +96,7 @@ return true;
         </div>
       </div>
       <div class="modal-footer text-center">
-        <p>Already got an account? <a href="#loginform" data-toggle="modal" data-dismiss="modal">Login Here</a></p>
+        <p>¿Ya tienes una cuenta? <a href="#loginform" data-toggle="modal" data-dismiss="modal">Entre aquí</a></p>
       </div>
     </div>
   </div>

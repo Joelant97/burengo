@@ -6,7 +6,7 @@ error_reporting(0);
 ?>
 
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="es" xmlns="http://www.w3.org/1999/html">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,11 +40,79 @@ error_reporting(0);
 
 <!-- Start Switcher -->
 <?php //include('includes/colorswitcher.php');?>
-<!-- /Switcher -->  
-        
+<!-- /Switcher -->
+
 <!--Header-->
 <?php include('includes/header.php');?>
-<!-- /Header --> 
+<!-- /Header -->
+
+
+<!--Modal para Seleccionar Area-->
+<div class="modal" id="myModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h3 align="center" class="modal-title">Qué le interesa ver?</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="login_wrap">
+                        <div class="col-md-12 col-sm-8">
+                            <p>
+                                <a class="closeINI">
+                                    <img src="assets/images/banner-image.jpg" height="218" width="480"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Autos</b>
+                                </a>
+                                <br><br>
+                                <a  href="http://facebook.com/yourProfile">
+                                    <img src="assets/images/casa.jpg" height="218" width="480"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casas</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer text-center">
+                <h4 align="center">Burengo</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    var img = document.getElementsByClassName("closeINI")[0];
+
+    // Presentar el modal en pantalla Siempre.
+    modal.style.display = "block";
+
+    img.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+<!--Fin del Modal-->
+
 
 <!-- Banners -->
 <section id="banner" class="banner-section">
