@@ -64,7 +64,7 @@ error_reporting(0);
                                     <img src="assets/images/banner-image.jpg" height="218" width="480"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Autos</b>
                                 </a>
                                 <br><br>
-                                <a  href="http://facebook.com/yourProfile">
+                                <a  href="real_estate/index.php">
                                     <img src="assets/images/casa.jpg" height="218" width="480"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Casas</b>
                                 </a>
                             </p>
